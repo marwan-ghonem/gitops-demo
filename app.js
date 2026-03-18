@@ -4,7 +4,7 @@ const port = 3000;
 
 // Health check endpoint
 app.get('/health', (req, res) => {
-  res.json({ 
+  res.json({
     status: 'healthy',
     timestamp: new Date().toISOString(),
     version: process.env.APP_VERSION || 'v1.0.0'
@@ -14,7 +14,7 @@ app.get('/health', (req, res) => {
 // Main endpoint
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from GitOps Demo! 🚀',
+    message: 'Hello from Marwan Gitops 123 Demo! 🚀',
     version: process.env.APP_VERSION || 'v1.0.0',
     environment: process.env.ENVIRONMENT || 'development',
     hostname: require('os').hostname()
