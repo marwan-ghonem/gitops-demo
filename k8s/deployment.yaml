@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: gitops-demo
-          image: ghcr.io/marwan-ghonem/gitops-demo/gitops-demo:85453f6b585328cb14f2a8d035a9ab1b280a1236
+          image: ghcr.io/marwan-ghonem/gitops-demo/gitops-demo:a460713b68d91efaf82ed0893be3dfd4dbd689ef
           ports:
             - containerPort: 3000
               name: http
